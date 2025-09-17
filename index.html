@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HIDASE: Grand Ethiopian Renaissance Dam</title>
+<link rel="stylesheet" href="css/style.css"> <!-- link css from css/style.cc -->
+
+</head>
+<body>
+
+
+    <div class="hero-image">
+        <h2 id="motto">HIDASE - SUPERPOWER OF ETHIOPIA</h2>
+    </div>
+
+    <!-- Top Navbar -->
+    <div class="topnav">
+        <a href="#home">Home</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">About ▼</button>
+            <div class="dropdown-content">
+                <a href="/navbars/about-history.html">History of GERD</a>
+                <a href="/navbars/about-success.html">Success Stories</a>
+                <a href="/navbars/about-capacity.html">Capacity of GERD</a>
+            </div>
+        </div>
+        <a href="/navbars/publications.html">Publications</a>
+        <a href="/navbars/review.html">Reviews</a>
+    </div>
+
+    <!-- Hamburger Menu -->
+    <div class="hamburger" onclick="toggleSidenav()">☰</div>
+
+    <!-- Side Navbar -->
+    <div class="sidenav" id="sidenav">
+        <a href="#description">Description</a>
+        <a href="#images">Innaguration</a>
+        <a href="#News">News</a>
+        <a href="#footer-content">Contacts</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <section id="home">
+            <h2>Welcome to HIDASE - The Grand Ethiopian Renaissance Dam (GERD)</h2>
+            <p>This website provides information about the GERD project, its significance, and research publications.</p>
+        </section>
+
+        <section id="description">
+            <h2>The GERD</h2>
+            <p>The Grand Ethiopian Renaissance Dam (GERD) is a gravity dam on the Blue Nile River in Ethiopia, aimed at generating hydroelectric power and boosting regional development.</p>
+        </section>
+
+        <section id="images">
+            <!-- <h2>Image Gallery</h2> -->
+            <div class="slideshow-container" onmouseover="pauseSlideshow()" onmouseout="resumeSlideshow()">
+                <img class="slides active" src="images/GERD Image (9).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (2).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (3).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (4).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (5).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (6).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (7).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (8).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (1).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (10).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (11).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (12).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (13).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (14).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (15).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (16).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (17).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (18).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (19).webp" alt="GERD Innaguration Image">
+                <img class="slides" src="images/GERD Image (20).webp" alt="GERD Innaguration Image">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <div class="dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <section id="News">
+            <h2>News</h2>
+            <ul>
+                <li>News 1: Research on hydrology and GERD impact</li>
+                <li>News 2: Environmental studies related to GERD</li>
+                <li>News 3: Socio-economic impact assessments</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+<footer>
+    <h3>Contact Us:</h3>
+    <div id="footer-content">
+        <ul>
+            <li><span style="color:#EA4335;">📍</span> Location: XXXX</li>
+            <li><span style="color:#34A853;">📞</span> Phone: 1111111</li>
+            <li><span style="color:#4285F4;">✉️</span> Email: info@hidase.com</li>
+            <li><span style="color:#1877F3;">📘</span> Facebook: /hidase</li>
+            <li><span style="color:#f1f4f7;">🐦/X</span> Twitter: @hidase</li>
+            <li><span style="color:#E1306C;">💼</span> LinkedIn: /campany/hidase</li>
+        </ul>
+
+        <p>&copy; 2024 HIDASE. All rights reserved.</p>
+    </div>
+
+    
+</footer>
+</html>
