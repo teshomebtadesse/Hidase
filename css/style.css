@@ -4,7 +4,7 @@ body { font-family: Arial, sans-serif; scroll-behavior: smooth; }
 
 /* Hero Image Section */
 .hero-image {
-  background: url('/images/GERD\ Image\ \(17\).webp') no-repeat center center;
+  background: url('/images/GERD Image (17).webp') no-repeat center center;
   background-size: cover;
   height: 200px;
   display: flex;
